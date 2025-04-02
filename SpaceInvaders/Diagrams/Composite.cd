@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SE456.IteratorForwardComposite" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <InheritanceLine Type="SE456.IteratorCompositeBase" FixedFromPoint="true">
+      <Path>
+        <Point X="7.5" Y="1.062" />
+        <Point X="7.5" Y="1.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgAAFCAAAAAAAQAAAAIAAAAAAAAACAAAAAAAAAQCAAA=</HashCode>
+      <FileName>Composite\IteratorForwardComposite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pRoot" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SE456.IteratorCompositeBase" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAECAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\IteratorCompositeBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.Component" Collapsed="true" HideInheritanceLine="true">
+    <Position X="3.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAIAAAgAAAAAAAAAAABAAAAEAAAAAAEAAA=</HashCode>
+      <FileName>Composite\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.GameObject" Collapsed="true">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAAAQAAAAAAAgAAAAAAEIAAAAABiAIEABAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.Leaf" Collapsed="true">
+    <Position X="2" Y="4" Width="1.5" />
+    <InheritanceLine Type="SE456.GameObject" ManuallyRouted="true">
+      <Path>
+        <Point X="4.5" Y="3.441" />
+        <Point X="4.5" Y="3.74" />
+        <Point X="2.75" Y="3.74" />
+        <Point X="2.75" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEAAAAAAEAAA=</HashCode>
+      <FileName>Composite\Leaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.Composite" Collapsed="true">
+    <Position X="5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAAAAAAQAAAEAAAQIAEAAA=</HashCode>
+      <FileName>Composite\Composite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poDLinkMan" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SE456.DLink" Collapsed="true">
+    <Position X="9" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAIAAgAAAAAAAIAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Manager\DLink\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.DLinkMan" Collapsed="true">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAIAAAAAAAABgAAAAAAAAACAAAAAAAAAAs=</HashCode>
+      <FileName>Manager\DLink\DLinkMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SE456.AlienColumn" Collapsed="true">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="SE456.Composite" ManuallyRouted="true">
+      <Path>
+        <Point X="5.75" Y="4.691" />
+        <Point X="5.75" Y="5.065" />
+        <Point X="4.75" Y="5.065" />
+        <Point X="4.75" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgAAAAAEAAA=</HashCode>
+      <FileName>GameObject\Aliens\AlienColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.AlienGrid" Collapsed="true">
+    <Position X="6" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="SE456.Composite" ManuallyRouted="true">
+      <Path>
+        <Point X="5.75" Y="4.691" />
+        <Point X="5.75" Y="5.065" />
+        <Point X="6.75" Y="5.065" />
+        <Point X="6.75" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAIAAAAABEAAAAAAAAAAAgAAQEAgAAg=</HashCode>
+      <FileName>GameObject\Aliens\AlienGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.AlienCrab" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\AlienCrab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.AlienSquid" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\AlienSquid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.AlienOctopus" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\AlienOctopus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SE456.AlienCategory" Collapsed="true">
+    <Position X="2" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\AlienCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
