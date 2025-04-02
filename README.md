@@ -3,6 +3,7 @@ A C# implementation of the classic arcade game Space Invaders, developed using t
 
 # Key Features:
 ✅ Faithful recreation of Space Invaders with all core gameplay mechanics
+
 ✅ 15 integrated design patterns, including:
 
 Creational: Singleton, Factory
@@ -10,5 +11,8 @@ Creational: Singleton, Factory
 Structural: Flyweight, Proxy, Adapter, Composite
 
 Behavioral: Observer, Command, Iterator, State, Strategy, Visitor, Object Pool, Null Object, Template
+
 ✅ Well-structured game systems: Input, Animation, Collision, Sound, Display
+
 ✅ Designed for scalability and maintainability
+
