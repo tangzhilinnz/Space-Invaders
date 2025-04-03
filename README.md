@@ -18,5 +18,6 @@ Behavioral: Observer, Command, Iterator, State, Strategy, Visitor, Object Pool, 
 
 ![image](https://github.com/user-attachments/assets/aaf71d78-6835-4c4d-8072-1ee921ce1080)
 
-![image](https://github.com/user-attachments/assets/5f08694b-b40c-4d83-aa0a-0c1c3bceb94c)
+![image](https://github.com/user-attachments/assets/c0f2b9be-f72e-4568-9d4c-0cd68c179f54)
+
 
