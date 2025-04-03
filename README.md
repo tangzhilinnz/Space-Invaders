@@ -16,10 +16,6 @@ Behavioral: Observer, Command, Iterator, State, Strategy, Visitor, Object Pool, 
 
 ✅ Designed for scalability and maintainability
 
-![image](https://github.com/user-attachments/assets/96fca9f3-f173-4ab6-8180-0157acf7ecdb)
-
-![image](https://github.com/user-attachments/assets/25fdef7f-d367-4355-b602-e56d5af36aea)
-
-![image](https://github.com/user-attachments/assets/d0393011-b4d5-414e-b5cc-b70cc9e6edc0)
+![image](https://github.com/user-attachments/assets/aaf71d78-6835-4c4d-8072-1ee921ce1080)
 
 
